@@ -5,6 +5,23 @@ body{
 
 }
 
+.experience{
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  width: 30%;
+  padding: 1rem;
+}
+
+.jsexamples{
+   text-align: center;
+   color: #f67680;
+}
+
+.btnsopra{
+  background-color: #f67680 ;
+}
+
 
 #title{
   background-color:#68C6B7;
@@ -88,7 +105,7 @@ h2{
 /* Feature Section */
 
 #features{
-  padding:5% 10% 1% 10%;
+  padding:3% 10% 1% 10%;
   position: relative;
   z-index: 1;
   background-color: white;
@@ -98,6 +115,7 @@ h2{
 
 .features-image {
   width: 20%;
+  min-width: 30px;
   /*border-radius: 100%;*/
   /* margin-bottom: 10px; */
 }
@@ -105,7 +123,6 @@ h2{
 .features-title{
   text-align: center;
   color: #ff616d;
-
 }
 
 .feature-section{
@@ -352,7 +369,8 @@ p{
   #title { text-align: center;}
 
   .title-image{
-    position: null;
+    /* position: null; */
+    display: none;
   }
 
   .container-fluid{
@@ -365,5 +383,17 @@ p{
   /*border-radius: 100%;*/
   /* margin-bottom: 10px; */
 } 
+
+.experience h3{
+  /* margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 700; */
+  font-size: 0.8rem;
+}
+
+.experience p{
+  /* color: #919090; */
+  font-size: 0.5rem;
+}
 
 }
