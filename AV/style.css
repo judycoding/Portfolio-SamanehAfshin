@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+
+nav{
+  background-image: url("images/banner3.jpg");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+
+  /* width: 100%;
+  height: 100vh;
+  background-image: url(images/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative; */
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #5992be;
+  opacity: 70%;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+.brand{
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+.brand h3{
+  
+  color: #ed6c6c;
+}
+.brand h1{
+  color: #fff;
+}
+.brand p{
+  color: antiquewhite;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5rem 3rem 1rem;
+}
+
+.tile img {
+  width: 100%;
+  /* max-width: 350px; */
+  /* height: 100px; */
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #0082e6;
+  padding: 2rem 1rem 1rem;
+}
+
+
+
+.gallery::after {
+  content: "";
+  width: 860px;
+}
+.detail{
+  background-color: #6d8195;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+.detail p{
+  padding-top: 0.3rem;
+}
+
+footer{
+  background-image: url("images/footer.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  padding: 7rem 2rem 2rem;
+
+}
+.contact{
+  text-align: center;
+}
+/* input{
+  border-radius: 20px;
+  width: 20%;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+  text-align: center;
+} */
+
+.contact input{
+  width: 50%;
+  max-width: 300px;
+  padding: 8px 10px;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* button{
+  border-radius: 20px;
+  width: 10%;
+  font-size: 1rem;
+  background-color: #ed6c6c;  
+  line-height: 2rem;
+  text-align: center;
+} */
+
+button{
+  padding: 8px 25px;
+  /* background: transparent; */
+  background-color: #ed6c6c;
+  outline: none;
+  /* border: 2px solid #fff; */
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.myfooter{
+  
+  text-align: center;
+  padding-top: 4rem;
+}
+.linkfooter{
+  color:#ffffff;
+  font-size: 0.5rem;
+}
+.pfooter{
+  color: rgb(148, 146, 146);
+  font-size: 0.5rem;
+}
+/* /////////////////////////////////////////////// */
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+
+  footer{
+    height: 200px;
+  }
+  h2{
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  .myfooter{
+  
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+  .brand{
+    padding-top: 2rem;
+    /* padding-left: 3rem;
+    padding-right: 2rem; */
+  }
+}
+/* section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+} */
+
