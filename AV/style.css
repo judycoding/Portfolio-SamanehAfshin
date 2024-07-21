@@ -81,6 +81,19 @@ a.active,a:hover{
   color: antiquewhite;
 }
 
+#sectionContainer{
+  display: flex;
+  gap: 10px;
+}
+
+#mainContainer{
+  max-width: 40%;
+  padding: 3rem 0rem 0rem;
+}
+
+.products{
+  max-width: 50%;
+}
 .gallery {
   display: flex;
   flex-direction: row;
@@ -88,9 +101,9 @@ a.active,a:hover{
   justify-content: center;
   align-items: center;
   gap: 16px;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: 0 auto;
-  padding: 5rem 3rem 1rem;
+  padding: 5rem 2rem 1rem;
 }
 
 .tile img {
@@ -115,14 +128,13 @@ a.active,a:hover{
   color: #fff;
   padding: 0;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-
 }
-.detail p{
+/* .detail p{
   padding-top: 0.3rem;
-}
+} */
 
 footer{
   background-image: url("images/footer.jpg");
@@ -171,17 +183,23 @@ h2{
   text-align: center;
 } */
 
-button{
+#redAdd{
+  background-color: #ed6c6c;
+  color: #fff;
+}
+
+.contact button{
   padding: 8px 25px;
+  border-radius: 20px;
   /* background: transparent; */
   background-color: #ed6c6c;
   outline: none;
-  /* border: 2px solid #fff; */
-  border-radius: 20px;
+  border: 2px solid #fff;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  margin-left: 8px;
 }
 
 .myfooter{
@@ -190,13 +208,15 @@ button{
   padding-top: 4rem;
 }
 .linkfooter{
-  color:#ffffff;
-  font-size: 0.5rem;
+  color:#885d5d;
+  font-size: 1rem;
 }
 .pfooter{
   color: rgb(148, 146, 146);
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
+
+
 /* /////////////////////////////////////////////// */
 @media (max-width: 952px){
   label.logo{
