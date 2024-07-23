@@ -110,14 +110,23 @@
 	<div class="container mt-4" id="mainContainer">
 		<h1 class="display-4 text-center">
 		  <!-- <i class="fas fa-book-open text-primary"></i> -->
-		  <span class="primary">Order</span> Your Product</h1>
+		  <span class="primary">Please Order</span> Your Product</h1>
 	
 		  <!-- Add Form  -->
 		  <form id="book-form">
 			<br>
 			<div class="form-group">
 			  <label for="title">Product</label>
-			  <input type="text" id="title" placeholder="Enter Product" class="form-control">
+			  <!-- <input type="text" id="title" placeholder="Enter Product" class="form-control"> -->
+			  <select  id="title" class="form-control" >
+				<option value="" >Enter product</option>
+				<option value="Lenz A">Lenz A</option>
+				<option value="Lenz B">Lenz B</option>
+				<option value="Lenz C">Lenz C</option>
+				<option value="Lenz D">Lenz D</option>
+				<option value="Lenz E">Lenz E</option>
+				<option value="Lenz F">Lenz F</option>
+			  </select>
 			</div>
 			<br>
 			<div class="form-group">
@@ -158,9 +167,8 @@
 			<input type="text" name="" id="redsubmit" placeholder="Enter your email address">
 			<button>Submit</button>
 		</div>
-		<div class="myfooter">
-			<p class="pfooter">Demo design by <a href="../index.html" class="linkfooter">Samaneh Afshin</a> For AV Prism product page</p>
-		</div>
+		<p class="pfooter">Demo design by <a href="../index.html" class="linkfooter">Samaneh Afshin</a> For AV Prism product page</p>
+		
 		
 	</footer>
 	<script src="script.js"></script>

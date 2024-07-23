@@ -81,6 +81,8 @@ a.active,a:hover{
   color: antiquewhite;
 }
 
+
+
 #sectionContainer{
   display: flex;
   gap: 10px;
@@ -89,6 +91,10 @@ a.active,a:hover{
 #mainContainer{
   max-width: 40%;
   padding: 3rem 0rem 0rem;
+}
+
+#lists{
+  max-width: 40%;
 }
 
 .products{
@@ -142,6 +148,7 @@ footer{
   width: 100%;
   background-size: cover;
   background-position: center;
+
 }
 h2{
   color: #fff;
@@ -166,11 +173,11 @@ h2{
   max-width: 300px;
   padding: 8px 10px;
   outline: none;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 20px;
   background: transparent;
   color: #fff;
-  font-size: 12px;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -194,30 +201,32 @@ h2{
   /* background: transparent; */
   background-color: #ed6c6c;
   outline: none;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 1rem;
+  /* font-weight: bold; */
   cursor: pointer;
   margin-left: 8px;
 }
 
-.myfooter{
+/* .myfooter{
   
   text-align: center;
   padding-top: 4rem;
-}
+} */
 .linkfooter{
-  color:#885d5d;
-  font-size: 1rem;
+  color:#996868;
 }
 .pfooter{
   color: rgb(148, 146, 146);
   font-size: 1rem;
+  text-align: center;
+  padding-top: 2.5rem;
 }
 
 
 /* /////////////////////////////////////////////// */
+/*952  858*/
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
@@ -228,12 +237,12 @@ h2{
   }
 }
 
-@media (max-width: 858px){
+@media (max-width: 1028px){
   .checkbtn{
     display: block;
   }
 
-  footer{
+  /* footer{
     height: 200px;
   }
   h2{
@@ -244,7 +253,7 @@ h2{
   
     text-align: center;
     padding-top: 1.5rem;
-  }
+  } */
 
   ul{
     position: fixed;
@@ -274,10 +283,35 @@ h2{
     /* padding-left: 3rem;
     padding-right: 2rem; */
   }
-}
+
 /* section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 } */
 
+
+  #sectionContainer{
+    display: block;
+  }
+  .products{
+    max-width: 80%;
+    margin: auto;
+  }
+  #mainContainer{
+    max-width: 70%;
+    padding: 3rem 0rem 0rem;
+  }
+  #lists{
+    max-width: 70%;
+  }
+
+  .pfooter{
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+  }
+  h2{
+    padding: 4rem 2rem 4rem;
+  
+  }
+}
