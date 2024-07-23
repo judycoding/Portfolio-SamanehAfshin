@@ -6,11 +6,8 @@ body{
 }
 
 .experience{
-  /* display: inline-block;
-  text-align: center;
-  margin-right: 0;
-  width: 30%; */
   padding: 1rem;
+  font-size: 1rem;
 }
 
 .experienceSection{
@@ -390,18 +387,6 @@ p{
   /*border-radius: 100%;*/
   /* margin-bottom: 10px; */
 } 
-
-.experience h3{
-  /* margin-top: 20px;
-  font-family: "Montserrat";
-  font-weight: 700; */
-  font-size: 1rem;
-}
-
-.experience p{
-  /* color: #919090; */
-  font-size: 1rem;
-}
 
 .features-image {
   width: 30%;
