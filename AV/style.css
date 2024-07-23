@@ -97,6 +97,18 @@ a.active,a:hover{
   max-width: 40%;
 }
 
+/* td{
+  padding: 5px;
+}
+#tdDelete{
+  
+} */
+ tr{
+  text-align: center;
+  font-size: 1rem;
+ }
+
+
 .products{
   max-width: 50%;
 }
@@ -314,4 +326,9 @@ h2{
     padding: 4rem 2rem 4rem;
   
   }
+  tr{
+    text-align: center;
+    font-size: 0.8rem;
+   }
+  
 }
