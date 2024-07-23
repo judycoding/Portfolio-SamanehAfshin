@@ -397,4 +397,11 @@ p{
   font-size: 0.5rem;
 }
 
+.features-image {
+  width: 30%;
+  min-width: 30px;
+  /*border-radius: 100%;*/
+  /* margin-bottom: 10px; */
+}
+
 }
