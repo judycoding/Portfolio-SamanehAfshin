@@ -6,11 +6,17 @@ body{
 }
 
 .experience{
-  display: inline-block;
+  /* display: inline-block;
   text-align: center;
   margin-right: 0;
-  width: 30%;
+  width: 30%; */
   padding: 1rem;
+}
+
+.experienceSection{
+  display: flex;
+  gap: 10px;
+  text-align: center;
 }
 
 .jsexamples{
@@ -394,7 +400,7 @@ p{
 
 .experience p{
   /* color: #919090; */
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .features-image {
