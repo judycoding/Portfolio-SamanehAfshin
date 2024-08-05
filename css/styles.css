@@ -30,27 +30,12 @@ body{
   background-color:#68C6B7;
   color: white;
  
-  padding: 3%  13% 7%;
+  padding: 3%  13% 3%;
   width: 100%;
   background-image: url("images/banner3.jpg");
   background-size: cover;
   background-position: center;
 }
-
-
-/* .container-fluid{ */
-  /* padding: 3%  7% 0%; */
-  /* (the one she put) */
-
-
-/* } */
-/* nav{
-  background-image: url("images/my");
-  height: 300px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-} */
 
 h1{
       font-family: "Montserrat";
@@ -113,7 +98,9 @@ h2{
 .h1-title {
   /* padding: 0 50% 0 0; */
   color: white;
-  max-width: 70%;
+  max-width: 77%;
+  font-weight: 700;
+
 }
 .title-image{
 
@@ -173,7 +160,6 @@ p{
   font-size: 1rem;
   padding-top: 1rem;
   font-weight: normal;
-
 
 }
 .motion-webdesign{
@@ -406,7 +392,7 @@ p{
     background-color:#68C6B7;
     color: white;
    
-    padding: 3%  13% 7%;
+    padding: 3%  13% 3%;
     width: 100%;
     background-image: url("images/banner3.jpg");
     background-size: cover;
@@ -415,7 +401,7 @@ p{
   
   .h1-title {
     max-width: 80%;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.5rem;
     padding: 0 10% 0 0;
   }
@@ -428,15 +414,13 @@ p{
       padding-right: 0;
       margin-right: 0;   
     }
-    /* .title-image{   
-      margin-top: 1%;
-      position: absolute;
-      right: 2%;
-      width: 16rem;
-      padding-right: 4rem;
-      padding-top: 2rem;
-      margin-right: 10rem;    
-    } */
+    .webdesign{
+      font-size: 1.5rem;
+    }
+    .posterp{
+      font-size: 1.5rem;
+    }
+
 
 
 .features-image {
