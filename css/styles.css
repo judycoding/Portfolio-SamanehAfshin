@@ -28,8 +28,7 @@ body{
 
 #title{
   background-color:#68C6B7;
-  color: white;
- 
+  color: white; 
   padding: 3%  13% 3%;
   width: 100%;
   background-image: url("images/banner3.jpg");
@@ -87,7 +86,7 @@ h2{
 }
 
 .download-button{
-  margin: 3% 3% 1% 0;
+  margin: 0 3% 1% 0;
 }
 
 .head-section{
@@ -98,9 +97,8 @@ h2{
 .h1-title {
   /* padding: 0 50% 0 0; */
   color: white;
-  max-width: 77%;
+  max-width: 80%;
   font-weight: 700;
-
 }
 .title-image{
 
@@ -111,7 +109,7 @@ h2{
   width: 16rem;
   padding-right: 4rem;
   padding-top: 2rem;
-  margin-right: 7rem;
+  margin-right: 6rem;
 
 }
 
@@ -158,7 +156,6 @@ p{
 .webdesign{
   color:rgb(61, 60, 60);
   font-size: 1rem;
-  padding-top: 1rem;
   font-weight: normal;
 
 }
@@ -260,9 +257,11 @@ p{
   border-radius: 20px;
 }
 .web{
-  width: 80%;
+  width: 90%;
   border-radius: 2rem;
-  margin: auto;
+  margin: 0.5rem auto;
+  height: 2.5rem;
+  font-size: 1rem;
 }
 
 #posters img.motion-image{
@@ -383,6 +382,7 @@ p{
     }
     .mybutton{
       border-radius: 2rem;
+      /* color: white; */
     }
 
 
@@ -416,6 +416,7 @@ p{
     }
     .webdesign{
       font-size: 1.5rem;
+      padding-top: 0.7rem;
     }
     .posterp{
       font-size: 1.5rem;
@@ -436,12 +437,17 @@ p{
   /* margin-bottom: 10px; */
 }
 .web{
-  width: 50%;
+  width: 70%;
   border-radius: 2rem;
   margin: auto;
   height: 4rem;
   margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+
 }
+
+
 .motion-image {
   width: 90%;
   margin-top: 50px;
