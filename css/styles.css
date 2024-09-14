@@ -27,6 +27,7 @@ body{
 
 
 #title{
+  height: 100vh;
   background-color:#68C6B7;
   color: white; 
   padding: 3%  13% 3%;
@@ -101,7 +102,6 @@ h2{
   font-weight: 700;
 }
 .title-image{
-
   margin-top: 1%;
   /* width: 70%; */
   /* position: absolute;
@@ -110,7 +110,6 @@ h2{
   padding-right: 4rem;
   padding-top: 2rem;
   margin-right: 6rem;
-
 }
 
 /* Feature Section */
@@ -262,6 +261,9 @@ p{
   margin: 0.5rem auto;
   height: 2.5rem;
   font-size: 1rem;
+  border:solid #da3849 1px;
+  color: #da3849;
+  background-color: rgb(236, 230, 230);
 }
 
 #posters img.motion-image{
@@ -353,7 +355,7 @@ p{
 /* Call to action */
 
 #cta {
-  padding: 7% 15%;
+  padding: 7% 8%;
   text-align: center;
   background-color: #68C6B7;
   color: white ;
@@ -361,7 +363,7 @@ p{
 
 .cta-title{
       font-family: "Montserrat";
-      font-weight: 900;
+      font-weight: 700;
       font-size: 2.5rem;
       line-height: 1.5;
     }
@@ -380,8 +382,38 @@ p{
       margin-bottom: 3%;
       font-size: 1.5rem;
     }
-    .mybutton{
+    .mybutton1{
+      /* display: block; */
       border-radius: 2rem;
+      max-width: 13rem;
+      height: 3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 2rem;
+      background-color: rgb(236, 230, 230);
+      border:solid #da3849 1px;
+      color: #da3849;
+    }
+    .mybutton3{
+      /* display: block; */
+      border-radius: 2rem;
+      max-width: 13rem;
+      height: 3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 2rem;
+      color: white;
+      background-color: transparent;
+      /* color: white; */
+    }
+    .mybutton2{
+      /* display: block; */
+      border-radius: 2rem;
+      max-width: 25rem;
+      height: 4rem;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      padding: 0.7rem 2rem;
       /* color: white; */
     }
 
@@ -389,6 +421,7 @@ p{
 
 @media (max-width: 1028px){
   #title{
+    height: 50vh;
     background-color:#68C6B7;
     color: white;
    
@@ -400,10 +433,12 @@ p{
   }
   
   .h1-title {
-    max-width: 80%;
+    display: block;
+    max-width: 95%;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0 10% 0 0;
+    display: block;
   }
 
     .title-image{
