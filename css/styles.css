@@ -65,15 +65,15 @@ h2{
   /* top: 0; */
   /* width: 100%; */
 
-
 }
 
 .navbar-brand{
   font-family: "Ubuntu";
   font-weight: 700;
   font-size: 2.5rem;
-  color: #ff616d;
-
+}
+.nav-image{
+  display: none;
 }
 
 .nav-item{
@@ -83,7 +83,7 @@ h2{
 .nav-link{
   font-family: "Montserrat";
   font-weight: 400;
-  font-size:  1.5rem;
+  font-size:  1.2rem;
 }
 
 .download-button{
@@ -106,10 +106,10 @@ h2{
   /* width: 70%; */
   /* position: absolute;
   right: 2%; */
-  width: 16rem;
-  padding-right: 4rem;
+  width: 18rem;
+  padding-right: 2rem;
   padding-top: 2rem;
-  margin-right: 6rem;
+  margin-right: 2rem;
 }
 
 /* Feature Section */
@@ -153,9 +153,10 @@ p{
 }
 
 .webdesign{
-  color:rgb(61, 60, 60);
-  font-size: 1rem;
+  /* color:rgb(61, 60, 60); */
+  font-size: 0.9rem;
   font-weight: normal;
+  color:white;
 
 }
 .motion-webdesign{
@@ -216,7 +217,7 @@ p{
 }
 
 #book{
-  padding: 7% 15% 5% 15%;
+  padding: 7% 10% 5% 10%;
   background-color:#68C6B7;
   color: white;
   text-align: center;
@@ -237,18 +238,6 @@ p{
   font-weight: normal;
   padding-top: 1rem;
 }
-
-/* #motion{ */
-  /* padding:5% 20% 5% 20%; */
-  /* padding:5% 15% 1% 15%; */
-  /* padding: 7% 15% 2% 15%;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  line-height: 1.5;
-  color: #ff616d;
-  
-} */
 
 .motion-image {
   width: 90%;
@@ -421,38 +410,52 @@ p{
 
 @media (max-width: 1028px){
   #title{
-    height: 50vh;
+    /* height: 70vh; */
     background-color:#68C6B7;
     color: white;
-   
-    padding: 3%  13% 3%;
+    padding: 3%  15% 3%;
     width: 100%;
-    background-image: url("images/banner3.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .h1-title {
-    display: block;
-    max-width: 95%;
-    font-weight: 700;
-    font-size: 2rem;
-    padding: 0 10% 0 0;
-    display: block;
   }
 
     .title-image{
-      margin-top: 1%;
-      width: 8rem;
+      display: none;
+      margin-top: 0%;
+      width: 10rem;
       /* position: absolute; */
       /* right: 2%; */
       padding-right: 0;
       margin-right: 0;   
     }
+
+    .nav-image{
+      display: inline-block;
+      width: 3rem;
+    }
+
+    .head-section{
+      display: block;
+    }
+    .h1-title {
+      max-width: 100%;
+      font-weight: 700;
+      font-size: 2.2rem;
+      text-align: center;
+      padding-top: 8rem;
+    }
+    .buttons-title{
+      padding-left: 25%;
+    }
+
+    #book{
+      padding: 7% 15% 5% 15%;
+    }
+
     .webdesign{
       font-size: 1.5rem;
       padding-top: 0.7rem;
+      color: white;
     }
+
     .posterp{
       font-size: 1.5rem;
     }
@@ -488,5 +491,6 @@ p{
   margin-top: 50px;
   border-radius: 40px;
 }
+
 
 }
