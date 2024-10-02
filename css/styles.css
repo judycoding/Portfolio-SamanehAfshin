@@ -109,7 +109,7 @@ h2{
 .h4-title {
   /* padding: 0 50% 0 0; */
   color: white;
-  /* max-width: 80%; */
+  max-width: 80%;
   font-weight: 400;
 }
 .title-image{
@@ -418,16 +418,29 @@ p{
     }
 
 
-    @media (max-width: 1000px){
+    /* @media screen and (max-width: 1000px){
 
       .photo-mobile{
         display: block;
         width: 70%;
         margin: 8rem auto;
-      }}
+      }
+    } */
     
 
-@media (max-width: 1028px){
+@media (max-width: 1000px){
+  .photo-mobile{
+    display: block;
+    width: 70%;
+    margin: 8rem auto;
+  }
+
+  .h4-title {
+    /* padding: 0 50% 0 0; */
+    color: white;
+    max-width: 100%;
+    font-weight: 400;
+  }
 
   /* .photo-mobile{
     display: block;
