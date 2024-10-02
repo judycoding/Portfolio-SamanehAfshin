@@ -103,8 +103,14 @@ h2{
 .h1-title {
   /* padding: 0 50% 0 0; */
   color: white;
-  max-width: 80%;
-  font-weight: 700;
+  /* max-width: 80%; */
+  font-weight: 900;
+}
+.h4-title {
+  /* padding: 0 50% 0 0; */
+  color: white;
+  /* max-width: 80%; */
+  font-weight: 400;
 }
 .title-image{
   margin-top: 1%;
@@ -412,14 +418,22 @@ p{
     }
 
 
+    @media (max-width: 1000px){
+
+      .photo-mobile{
+        display: block;
+        width: 70%;
+        margin: 8rem auto;
+      }}
+    
 
 @media (max-width: 1028px){
 
-  .photo-mobile{
+  /* .photo-mobile{
     display: block;
     width: 70%;
     margin: 8rem auto;
-  }
+  } */
 
   #title{
     /* height: 70vh; */
@@ -441,7 +455,7 @@ p{
 
     .nav-image{
       display: inline-block;
-      width: 3rem;
+      width: 5rem;
     }
 
     .head-section{
