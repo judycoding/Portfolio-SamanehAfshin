@@ -90,6 +90,11 @@ h2{
   margin: 0 3% 1% 0;
 }
 
+.photo-mobile{
+  display: none;
+  margin: auto;
+}
+
 .head-section{
   display: flex;
   justify-content: space-between;
@@ -409,6 +414,13 @@ p{
 
 
 @media (max-width: 1028px){
+
+  .photo-mobile{
+    display: block;
+    width: 70%;
+    margin: 8rem auto;
+  }
+
   #title{
     /* height: 70vh; */
     background-color:#68C6B7;
