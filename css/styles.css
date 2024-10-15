@@ -106,7 +106,7 @@ h2{
   /* max-width: 80%; */
   font-weight: 900;
 }
-.h4-title {
+.p-title {
   /* padding: 0 50% 0 0; */
   color: white;
   max-width: 80%;
@@ -435,11 +435,13 @@ p{
     margin: 8rem auto;
   }
 
-  .h4-title {
+  .p-title {
     /* padding: 0 50% 0 0; */
     color: white;
-    max-width: 100%;
+    max-width: 80%;
     font-weight: 400;
+    margin: auto;
+    text-align: center;
   }
 
   /* .photo-mobile{
