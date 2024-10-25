@@ -437,6 +437,7 @@ p{
 
   .p-title {
     /* padding: 0 50% 0 0; */
+    font-size: 1.3rem;
     color: white;
     max-width: 80%;
     font-weight: 400;
