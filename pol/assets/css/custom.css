@@ -1,3 +1,117 @@
 /*
 Custom Css
 */
+
+
+/* p{
+    font-size: 0.5rem !important;
+} */
+
+
+.carousel-indicators li{
+    margin-top: 50px !important;
+    margin-top: 0% !important;
+}
+/* 
+.row{
+    height: 400px !important;
+} */
+/* .mx-auto{
+    margin-bottom: 0% !important;
+
+
+} */
+
+
+
+.color-home{
+    color: forestgreen !important;
+}
+
+.heignt-equal{
+    height: 400px !important;
+}
+
+.margin-zero{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+
+}
+
+.img-fluid{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+h1{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.button-order{
+    /* padding: 0.5 1.5rem !important; */
+    width: 8rem;
+    border-radius: 3rem;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.spazio{
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) and (max-device-width: 1024px){
+    .p-hide{
+        display: none;
+    }
+    .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-prev i {
+        color: #59ab6e !important;
+        font-size: 1.8em !important;
+    }
+    .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-next i {
+        color: #59ab6e !important;
+        font-size: 1.8em !important;
+    }
+    .button-order{
+        /* padding: 0.5 1.5rem !important; */
+        width: 8rem;
+        border-radius: 3rem;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .spazio{
+        max-width: 174px;
+        max-height: 174px;
+        margin: auto;
+        display: block;
+    }
+    .text-align-left{
+        text-align: center !important;
+    }
+    .d-flex{
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 768px){
+    .p-hide{
+        display: none;
+    }
+    .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-prev i {
+        color: #59ab6e !important;
+        font-size: 1.8em !important;
+    }
+    .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-next i {
+        color: #59ab6e !important;
+        font-size: 1.8em !important;
+    }
+
+   
+
+
+}
