@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: montserrat;
+  font-family: montserrat; 
 }
 
 nav{
@@ -15,14 +15,6 @@ nav{
   width: 100%;
   background-size: cover;
   background-position: center;
-
-
-  /* width: 100%;
-  height: 100vh;
-  background-image: url(images/bg1.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative; */
 }
 label.logo{
   color: white;
@@ -129,31 +121,57 @@ a.active,a:hover{
   /* max-width: 350px; */
   /* height: 100px; */
   object-fit: cover;
-  border-radius: 10px;
-  border: 1px solid #0082e6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: 2px solid #6d8195;
+  /* border: 2px solid #7c93aa; */
+  /* border: 2px solid #a28a76; */
+
+
   padding: 2rem 1rem 1rem;
 }
 
+/* .amazon{
+  font-size: 0.5 rem !important;
+} */
 
 
 .gallery::after {
   content: "";
   width: 860px;
 }
+h4, h3{
+  margin-bottom: 0 !important;
+  font-weight: bold !important;
+}
+h4{
+  padding-top: 1rem !important;
+  padding-bottom: 0.5rem !important;
+}
 .detail{
   background-color: #6d8195;
-  border-radius: 10px;
-  color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #e8e6e6;
   padding: 0;
   text-align: center;
   padding: 0.5rem;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  text-align: left;
+  height: 230px;
 }
-/* .detail p{
-  padding-top: 0.3rem;
-} */
-
+.detail li{
+  font-size: 0.7rem !important;
+  display: inline;
+}
+.detail p{
+  font-size: 0.7rem !important;
+  margin-bottom: 0 !important;
+}
+.grey-color{
+  color:rgb(187, 183, 183);
+}
 footer{
   background-image: url("images/footer.jpg");
   height: 350px;
@@ -185,7 +203,7 @@ h2{
   max-width: 300px;
   padding: 8px 10px;
   outline: none;
-  border: 1px solid #fff;
+  border: 0.5px solid #fff;
   border-radius: 20px;
   background: transparent;
   color: #fff;
@@ -206,14 +224,18 @@ h2{
   background-color: #ed6c6c;
   color: #fff;
 }
+.primary{
+  /* color: #6d8195; */
+  color: #ed6c6c;
 
+}
 .contact button{
   padding: 8px 25px;
   border-radius: 20px;
   /* background: transparent; */
   background-color: #ed6c6c;
   outline: none;
-  border: 1px solid #fff;
+  border: 0.5px solid #fff;
   color: #fff;
   font-size: 1rem;
   /* font-weight: bold; */
@@ -227,7 +249,8 @@ h2{
   padding-top: 4rem;
 } */
 .linkfooter{
-  color:#996868;
+  /* color:#996868; */
+  color: rgb(148, 146, 146);;
 }
 .pfooter{
   color: rgb(148, 146, 146);
@@ -246,6 +269,10 @@ h2{
   }
   nav ul li a{
     font-size: 16px;
+  }
+  h1.primary{
+    font-size: 2rem ;
+    color: #ed6c6c;
   }
 }
 
@@ -312,14 +339,14 @@ h2{
   }
   #mainContainer{
     max-width: 70%;
-    padding: 3rem 0rem 0rem;
+    padding: 0rem 0rem 0rem;
   }
   #lists{
     max-width: 70%;
   }
 
   .pfooter{
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
     font-size: 0.7rem;
   }
   h2{
@@ -330,5 +357,14 @@ h2{
     text-align: center;
     font-size: 0.8rem;
    }
+
+   .contact input{
+    font-size: 0.7rem !important;  
+  }
+  .contact button{
+  
+    font-size: 0.7rem !important;
+ 
+  }
   
 }
