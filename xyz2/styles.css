@@ -97,7 +97,9 @@ body{
 }
 
 .colorsecond{
-    color: #b21307;
+    /* color: #b21307; */
+    /* color: #f65145; */
+    color: #f16055;
 }
 
 .info input{
@@ -354,6 +356,11 @@ body{
     background: transparent;
     color: #fff;
     font-size: 0.8rem;
+}
+.colorsecond{
+  color: #b21307;
+  /* color: #f65145; */
+  /* color: #cd4e44; */
 }
 
 /* .inline {
