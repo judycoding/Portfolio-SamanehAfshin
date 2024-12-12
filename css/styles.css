@@ -92,7 +92,7 @@ h2{
 
 .photo-mobile{
   display: none;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .head-section{
@@ -426,113 +426,191 @@ p{
         margin: 8rem auto;
       }
     } */
+
+
+    @media screen and (min-device-width: 869px) and (max-device-width: 1024px){
+      .photo-mobile{
+        display: none;
+      }
+
+      #title{
+        /* background-color:#e88155;
+        color: white; */
+        padding: 3%  15% 3%;
+        width: 100%;
+      }
+
+      .nav-image{
+        display: inline-block;
+        width: 5rem;
+      }
+
+      .head-section{
+        display: block;
+      }
+    
+      .p-title {
+        /* padding: 0 50% 0 0; */
+        font-size: 1.3rem;
+        color: white;
+        max-width: 80%;
+        font-weight: 400;
+        margin: auto;
+        text-align: center;
+      }
+
+      .h1-title {
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 8rem;
+      }
+      .buttons-title{
+        padding-left: 25%;
+      }
+    
+        .title-image{
+          display: none;
+        }
     
 
-@media (max-width: 1000px){
-  .photo-mobile{
-    display: block;
-    width: 70%;
-    margin: 8rem auto;
-  }
+    
+        #book{
+          padding: 7% 15% 5% 15%;
+        }
 
-  .p-title {
-    /* padding: 0 50% 0 0; */
-    font-size: 1.3rem;
-    color: white;
-    max-width: 80%;
-    font-weight: 400;
-    margin: auto;
-    text-align: center;
-  }
+         /* #book - row - button */
+         .web{
+          width: 70%;
+          border-radius: 2rem;
+          margin: auto;
+          height: 4rem;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          font-size: 1.5rem;
+        
+        }
+        /* #book */
+        .webdesign{
+          font-size: 1.5rem;
+          padding-top: 0.7rem;
+          color: white;
+        }
 
-  /* .photo-mobile{
-    display: block;
-    width: 70%;
-    margin: 8rem auto;
-  } */
 
-  #title{
-    /* height: 70vh; */
-    background-color:#68C6B7;
-    color: white;
-    padding: 3%  15% 3%;
-    width: 100%;
-  }
-
-    .title-image{
-      display: none;
-      margin-top: 0%;
-      width: 10rem;
-      /* position: absolute; */
-      /* right: 2%; */
-      padding-right: 0;
-      margin-right: 0;   
+        /* #posters - row */
+        .posterp{
+          font-size: 1.5rem;
+        }
+        /* #posters - row - img*/
+        .motion-image {
+          width: 90%;
+          margin-top: 50px;
+          border-radius: 40px;
+        }
+        
+        /* #features - experienceSection - experience */
+        .features-image {
+          width: 30%;
+          min-width: 30px;
+          /*border-radius: 100%;*/
+          /* margin-bottom: 10px; */
+        }
+ 
     }
+    @media screen and (max-device-width: 868px){
+      .photo-mobile{
+        display: block;
+        width: 30%;
+        margin: 8rem auto;
+      }
+     
+      #title{
+        color: white;
+        padding: 3%  15% 3%;
+        width: 100%;
+      }
 
-    .nav-image{
-      display: inline-block;
-      width: 5rem;
+      .nav-image{
+        display: inline-block;
+        width: 5rem;
+      }
+
+      .head-section{
+        display: block;
+      }
+    
+      .p-title {
+        /* padding: 0 50% 0 0; */
+        font-size: 1.3rem;
+        color: white;
+        max-width: 80%;
+        font-weight: 400;
+        margin: auto;
+        text-align: center;
+      }
+
+      .h1-title {
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 8rem;
+      }
+      .buttons-title{
+        padding-left: 25%;
+      }
+    
+        .title-image{
+          display: none;
+        }
+    
+
+    
+        #book{
+          padding: 7% 15% 5% 15%;
+        }
+
+         /* #book - row - button */
+         .web{
+          width: 70%;
+          border-radius: 2rem;
+          margin: auto;
+          height: 4rem;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          font-size: 1.5rem;
+        
+        }
+        /* #book */
+        .webdesign{
+          font-size: 1.5rem;
+          padding-top: 0.7rem;
+          color: white;
+        }
+
+
+        /* #posters - row */
+        .posterp{
+          font-size: 1.5rem;
+        }
+        /* #posters - row - img*/
+        .motion-image {
+          width: 90%;
+          margin-top: 50px;
+          border-radius: 40px;
+        }
+        
+        /* #features - experienceSection - experience */
+        .features-image {
+          width: 30%;
+          min-width: 30px;
+        }
+    
     }
+    
+    
+    
 
-    .head-section{
-      display: block;
-    }
-    .h1-title {
-      max-width: 100%;
-      font-weight: 700;
-      font-size: 2.2rem;
-      text-align: center;
-      padding-top: 8rem;
-    }
-    .buttons-title{
-      padding-left: 25%;
-    }
-
-    #book{
-      padding: 7% 15% 5% 15%;
-    }
-
-    .webdesign{
-      font-size: 1.5rem;
-      padding-top: 0.7rem;
-      color: white;
-    }
-
-    .posterp{
-      font-size: 1.5rem;
-    }
-
-
-
-.features-image {
-  width: 10%;
-  /*border-radius: 100%;*/
-  /* margin-bottom: 10px; */
-} 
-
-.features-image {
-  width: 30%;
-  min-width: 30px;
-  /*border-radius: 100%;*/
-  /* margin-bottom: 10px; */
-}
-.web{
-  width: 70%;
-  border-radius: 2rem;
-  margin: auto;
-  height: 4rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  font-size: 1.5rem;
-
-}
-
-
-.motion-image {
-  width: 90%;
-  margin-top: 50px;
-  border-radius: 40px;
-}
-
-
-}
+  
