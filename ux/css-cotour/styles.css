@@ -1,0 +1,768 @@
+
+body{
+  font-family: "Montserrat";
+  /* text-align: center; */
+  background-color: white;
+}
+
+/* .left-div{
+  text-align: center;
+  margin: auto;
+} */
+
+/* .right-div{
+  display: inline-block;
+  text-align: right;
+} */
+
+
+.right-div img{
+  max-height: 40%;
+  padding: 0 0 2rem 0;
+}
+.right-div{
+  padding: 0;
+  text-align: right;
+  max-width: 50%;
+}
+
+.buttons-title{
+  text-align: left;
+}
+
+#new-new{
+  padding-top: 4rem;
+}
+
+.experience{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.experienceSection{
+  display: flex;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+.experienceSection-new{
+  display: none;
+}
+
+.jsexamples{
+   text-align: center;
+   color: #f67680;
+}
+
+.btnsopra{
+  background-color: #f67680 ;
+}
+
+
+#title{
+  height: 100vh;
+  /* background-color:#68C6B7; */
+  background-color:white;
+  color: black; 
+  padding: 3%  13% 3%;
+  width: 100%;
+  background-image: url("images/banner3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+      font-family: "Montserrat";
+      font-weight: 900;
+      font-size: 2.5rem;
+      line-height: 1.5;
+    }
+
+.h1-title{
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+h2{
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 2.5rem;
+  display: flex;
+
+
+  /* overflow: hidden; */
+  /* background-color: #333; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%; */
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+/* .nav-image{
+  display: none;
+} */
+.nav-image{
+        display: none;
+        /* width: 5rem; */
+      }
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size:  1.2rem;
+}
+
+.download-button{
+  margin: 0 3% 1% 0;
+}
+
+.photo-mobile{
+  display: none;
+  /* margin: auto; */
+}
+
+/* .head-section{
+  display: flex;
+  justify-content: space-between;
+} */
+  .head-section{
+         display: flex;
+         justify-content: space-between;
+      }
+
+
+.h1-title {
+  /* padding: 0 50% 0 0; */
+  color: black;
+  /* max-width: 80%; */
+  font-weight: 900;
+  text-align: left;
+}
+.p-title {
+  /* padding: 0 50% 0 0; */
+  color: black;
+  max-width: 90%;
+  font-weight: 400;
+  text-align: left;
+}
+.p-title-t {
+  color: black;
+  max-width: 90%;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.title-image{
+  margin-top: 1%;
+  /* width: 70%; */
+  /* position: absolute;
+  right: 2%; */
+  width: 18rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  margin-right: 2rem;
+}
+
+/* Feature Section */
+
+#features{
+  padding:3% 10% 1% 10%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+
+
+}
+
+.features-image {
+  width: 20%;
+  min-width: 30px;
+  /*border-radius: 100%;*/
+  /* margin-bottom: 10px; */
+}
+
+.features-title{
+  text-align: center;
+  color:rgb(74, 72, 72);
+  padding-bottom: 1.5rem;
+}
+
+.feature-section{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+p{
+  color: #919090;
+  font-size: 1rem;
+}
+
+.webdesign{
+  /* color:rgb(61, 60, 60); */
+  font-size: 0.9rem;
+  font-weight: normal;
+  color:white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  width: 10rem;
+  margin: auto;
+
+}
+.motion-webdesign{
+  color: white;
+
+}
+
+.imagebrand{
+  padding-right: 0.5rem;
+}
+
+
+
+.icon{
+  color: #ff616d;
+}
+
+.icon:hover{
+  color:  #a1b725;
+}
+
+
+/* Testimonial section */
+
+#testimonials{
+  background-color: #ff616d;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-subtext {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+
+.testimonial-image {
+  width: 70%;
+  /*border-radius: 100%;*/
+  margin-top: 50px;
+}
+
+#websites{
+  padding: 7% 10% 5% 10%;
+  background-color:#e88155;
+  color: white;
+  text-align: center;
+}
+
+#posters{
+  padding:7% 10% 7% 10%;
+  background-color:white;
+  text-align: center;
+  /* line-height: 1.5; */
+}
+.motion-poster {
+  color: #1F6969;
+}
+.posterp{
+  color: rgb(39, 38, 38);
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+#websites img.motion-image {
+  width: 90%;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: solid #1F6969 2px;
+}
+.web{
+  width: 90%;
+  border-radius: 2rem;
+  margin: 0.5rem auto;
+  height: 2.5rem;
+  font-size: 1rem;
+  border:solid #da3849 1px;
+  color: #da3849;
+  background-color: rgb(236, 230, 230);
+}
+
+#posters img.motion-image{
+  border:solid rgb(166, 165, 165) 1px ;
+  width: 90%;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.motion-section{
+  text-align: center;
+}
+
+.motion-text {
+  /* font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2rem; */
+  line-height: 1.2;
+  text-align: center;
+  color: #68C6B7;
+
+  /* color: #ff616d;; */
+
+}
+
+
+
+.motion-subtext {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-align: center;
+  color: #68C6B7;
+
+}
+
+.motion-subtextbook {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-align: center;
+  color: white;
+
+}
+
+.motion-subtextposter {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-align: center;
+  color: #1F6969;
+
+}
+
+
+#press {
+  background-color: white;
+  /*padding-bottom: 2%;*/
+  text-align: center;
+  padding: 10% 20% 10% 20%;
+
+}
+
+.press-image {
+  width: 30%;
+  margin: 1% 1% 1% 1%;
+}
+
+/* Pricing  */
+
+#pricing {
+  padding: 10% 20% 10% 20%;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  width: 30%;
+}
+
+.pricing-title{
+  color:#ff616d;
+  font-size: 2rem;
+}
+.pricing-subtitle{
+  font-size: 1.3rem;
+}
+
+/* Call to action */
+
+#cta {
+  padding: 7% 8%;
+  text-align: center;
+  background-color:#1F6969;
+  color: white ;
+}
+
+.cta-title{
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 1.5;
+    }
+
+    /* Footer section */
+    #footer{
+      background-color: #fff;
+      text-align: center;
+      padding: 3% 15%;
+    }
+    .social-icon{
+      margin: 20px 10px;
+      font-size: 2rem;
+    }
+    .footer-text{
+      margin-bottom: 3%;
+      font-size: 1.5rem;
+    }
+    .mybutton1{
+      /* display: block; */
+      border-radius: 2rem;
+      max-width: 13rem;
+      height: 3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 2rem;
+      background-color: rgb(236, 230, 230);
+      border:solid #da3849 1px;
+      color: #da3849;
+    }
+    .mybutton3{
+      /* display: block; */
+      border-radius: 2rem;
+      max-width: 13rem;
+      height: 3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 2rem;
+      color: white;
+      background-color: transparent;
+      /* color: white; */
+    }
+    .mybutton2{
+      /* display: block; */
+      border-radius: 2rem;
+      max-width: 25rem;
+      height: 3rem;
+      margin-top: 0rem;
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      text-align: left;
+      margin-left: 1rem;
+      /* color: white; */
+    }
+
+
+    /* @media screen and (max-width: 1000px){
+
+      .photo-mobile{
+        display: block;
+        width: 70%;
+        margin: 8rem auto;
+      }
+    } */
+
+
+    @media screen and (min-device-width: 869px) and (max-device-width: 1024px){
+      .photo-mobile{
+        display: none;
+      }
+
+      .mission{
+        display: none;
+      }
+
+      .right-div img{
+        max-height: 70%;
+      }
+
+
+      h3{
+        text-align: center;
+      }
+
+      .right-div{
+      
+        text-align: center;
+        padding-top: 4rem;
+      }
+
+      .experienceSection-new{
+         display: flex;
+         gap: 10px;
+         margin-top: 3rem;
+      }
+
+      .buttons-title{
+        text-align: center;
+        }
+
+      #title{
+        /* background-color:#e88155;
+        color: white; */
+        padding: 3%  15% 3%;
+        width: 100%;
+      }
+
+      .nav-image{
+        display: inline-block;
+        width: 5rem;
+      }
+
+      .head-section{
+        display: grid;
+      }
+    
+      .p-title {
+        /* padding: 0 50% 0 0; */
+        font-size: 2rem;
+        max-width: 90%;
+        font-weight: 400;
+        margin: auto;
+        text-align: left;
+      }
+
+      .p-title-t {
+        font-size: 2rem;
+        max-width: 90%;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 0;
+      }
+
+      .h1-title {
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 2rem;
+      }
+      /* .buttons-title{
+        padding-left: 25%;
+      } */
+    
+        .title-image{
+          display: none;
+        }
+    
+
+    
+        #websites{
+          padding: 7% 15% 5% 15%;
+        }
+
+         /* #book - row - button */
+         .web{
+          width: 70%;
+          border-radius: 2rem;
+          margin: auto;
+          height: 4rem;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          font-size: 1.5rem;
+        
+        }
+        /* #book */
+        .webdesign{
+          font-size: 2rem;
+          color: white;
+          width: 20rem;
+          margin: auto;
+
+        }
+
+
+        /* #posters - row */
+        .posterp{
+          font-size: 1.5rem;
+        }
+        /* #posters - row - img*/
+        .motion-image {
+          width: 90%;
+          margin-top: 50px;
+          border-radius: 40px;
+        }
+        
+        /* #features - experienceSection - experience */
+        .features-image {
+          width: 30%;
+          min-width: 30px;
+          /*border-radius: 100%;*/
+          /* margin-bottom: 10px; */
+        }
+        .cta-title{
+          font-size: 2rem;
+        }
+ 
+    }
+    @media screen and (max-device-width: 868px){
+      .photo-mobile{
+        display: block;
+        width: 30%;
+        margin: 8rem auto;
+      }
+      .mission{
+        display: none;
+      }
+
+      h3{
+        text-align: center;
+        display: inline-block;
+      }
+
+      .right-div{
+        text-align: center;
+        padding-top: 4rem;
+      }
+      .right-div img{
+        max-height: 70%;
+      }
+      .experienceSection-new{
+         display: flex;
+         gap: 10px;
+         margin-top: 4rem;
+      }
+      
+      .buttons-title{
+        text-align: center;
+      }
+     
+      #title{
+        padding: 3%  15% 3%;
+        width: 100%;
+      }
+
+      .nav-image{
+        display: inline-block;
+        width: 5rem;
+      }
+
+      .head-section{
+        display: grid;
+      }
+    
+      .p-title {
+        /* padding: 0 50% 0 0; */
+        font-size: 2rem;
+        max-width: 90%;
+        font-weight: 400;
+        margin: auto;
+        text-align: left;
+      }
+
+      .p-title-t {
+        font-size: 2rem;
+        max-width: 90%;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 0;
+      }
+
+      .h1-title {
+        max-width: 100%;
+        /* font-weight: 700; */
+        font-size: 2.2rem;
+        text-align: center;
+        padding-top: 2rem;
+      
+      }
+      /* .buttons-title{
+        padding-left: 25%;
+      } */
+    
+        .title-image{
+          display: none;
+        }
+    
+
+    
+        #websites{
+          padding: 7% 15% 5% 15%;
+        }
+
+         /* #book - row - button */
+         .web{
+          width: 70%;
+          border-radius: 2rem;
+          margin: auto;
+          height: 4rem;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          font-size: 1.5rem;
+        
+        }
+        /* #book */
+        .webdesign{
+          font-size: 2rem;
+          color: white;
+          width: 20rem;
+          margin: auto;
+
+        }
+
+
+        /* #posters - row */
+        .posterp{
+          font-size: 1.5rem;
+        }
+        /* #posters - row - img*/
+        .motion-image {
+          width: 90%;
+          margin-top: 50px;
+          border-radius: 40px;
+        }
+        
+        /* #features - experienceSection - experience */
+        .features-image {
+          width: 30%;
+          min-width: 30px;
+        }
+        .cta-title{
+          font-size: 2rem;
+        }
+        h1{
+          font-size: 3rem;
+        }
+    
+    }
+    
+    
+    
+
+  
