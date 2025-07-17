@@ -31,11 +31,15 @@ body{
   padding: 1rem;
   font-size: 1rem;
 }
+.experience-ux{
+  padding: 1rem;
+  font-size: 1rem;
+}
 
 .experienceSection{
   display: flex;
   gap: 10px;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .experienceSection-new{
@@ -52,7 +56,6 @@ body{
 .btnsopra{
   background-color: #f67680 ;
 }
-
 
 #title{
   height: 100vh;
@@ -487,6 +490,14 @@ p{
         font-size: 1rem;
         margin-top: 4rem;
       }
+
+      .experience-ux{
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+      }
+
+      
       .right-div{
         display:none; 
       }   
@@ -604,6 +615,12 @@ p{
         font-size: 1rem;
         margin-top: 4rem;
       }
+        .experience-ux{
+        padding: 1rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+      }
+
 
       .right-div{
         display:none; 
